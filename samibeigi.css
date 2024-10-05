@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Indie+Flower&display=swap');
+body{
+    background-color: #27344f;
+}
+.logo-img{
+    width: 100px;
+}
+.ul-d{
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #384B70;
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid #162035 ;
+    transition: 1s;
+
+    /* background-color:#384B70;
+    border: 3px solid #162035; */
+}
+li a:hover{
+    background-color: #27344f;
+    border: 3px solid #27344f;
+
+}
+ul li{
+    transition: 1s;
+}
+ul li:hover{
+    transform: scale(1.3);
+}
+.con{
+    border-bottom: 1px solid #162035;
+}
+.card-1{
+    background-color: #384B70;
+    width: 1000px;
+    /* height: 500px; */
+    border-radius: 8px;
+    border: 3px solid #162035;
+    
+}
+img{
+    transition: 1s;
+    border-radius: 8px;
+}
+img:hover{
+    transform: scale(1.2);
+}
+p{
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+a{
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+}
+.con-3{
+    border-top:1px solid #162035 ;
+}
+.logos-f img{
+    width: 30px;
+}
+.logo-s img{
+    width: 50px;
+}
+.logos-f{
+    gap: 10px;
+}
+.content-1{
+    justify-content: space-between;
+}
+h2{
+    font-size: 1.5rem;
+    font-family: "Caveat", cursive;
+    color: black;
+}
